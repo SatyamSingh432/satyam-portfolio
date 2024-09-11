@@ -15,7 +15,10 @@ const Data = () => {
       </p>
       <a href="#contact" className="button button--flex">
         {"Say Hello "}
-        <IoIosSend style={{ color: "hsl(0, 0%, 98%)", fontSize: "18px" }} />
+        <IoIosSend
+          className="button__icon"
+          style={{ color: "hsl(0, 0%, 98%)" }}
+        />
       </a>
     </div>
   );
